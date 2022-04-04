@@ -1,7 +1,7 @@
 variable "org_name" {}
 variable "api_token" {}
-variable "base_url" {}
-
+variable "base_url1" {}
+x
 # Enable and configure the Okta provider
 terraform {
   required_providers {
