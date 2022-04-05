@@ -18,7 +18,7 @@ provider "okta" {
     api_token = var.api_token
 }
 resource "okta_app_saml" "TerraFromTestApplication" {
-  label                    = "TerraFromTestApplication"
+  label                    = "TerraFromTestApplicationNewUmeshTest"
   sso_url                  = "https://example.com"
   recipient                = "https://example.com"
   destination              = "https://example.com"
